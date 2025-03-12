@@ -35,37 +35,37 @@ Andrea Carrillo - 1710107
 ### Creación del ejecutable
 
 ```
->make
+make
 ``` 
 
 ### Creación del ejecutable detectando errores en el código antes de su ejecución.
 
 ``` 
->scan-build make
+scan-build make
 ```
 
 ### Ejecución del programa
 
 ``` 
->./simfs
+./simfs
 ```
 
 ### Ejecución  del programa leyendo comandos desde un archivo, agrega el nombre del archivo como argumento
 
 ``` 
->./simfs nombre_del_archivo
+./simfs nombre_del_archivo
 ```
 
 ### Ejecución del programa con Valgrind para comprobar gestión de la memoria y posibles errores
 
 ``` 
->valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes  ./simfs
+valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes  ./simfs
 ```
 
 ### Ejecución  del programa con Valgrind leyendo comandos desde un archivo
 
 ``` 
->valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes  ./simfs nombre_del_archivo
+valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes  ./simfs nombre_del_archivo
 ```
 
 ### Ejemplo de uso
