@@ -71,9 +71,9 @@ valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes  ./simfs no
 > [!NOTE]
 > Las instrucciones de compilación y ejecución son para sistemas basados en **UNIX** (Linux)  
 > Para compilar y ejecutar en **Windows**, se puede hacer mediante los siguientes comandos (en cmd o PowerShell):  
-> >gcc simfs.c filesystem.c node.c -o simfs  
-> >simfs  
-> >simfs nombre_del_archivo
+> ``` gcc simfs.c filesystem.c node.c -o simfs```   
+> ``` simfs```   
+> ``` simfs nombre_del_archivo``` 
 
 ### Ejemplo de uso
 
