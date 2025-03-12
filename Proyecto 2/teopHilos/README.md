@@ -17,8 +17,11 @@ scan-build make
 ### Ejecución del programa
 
 ```
-./teoph <numero de hilos> <instancia> (el programa asume que el numero de hilos ingresado es un entero)
+./teoph <numero de hilos> <instancia>
 ```
+
+> [!NOTE]
+> El programa asume que el número de procesos ingresado es un entero
 
 ### Ejecución del programa con Valgrind para comprobar gestión de la memoria y posibles errores
 
