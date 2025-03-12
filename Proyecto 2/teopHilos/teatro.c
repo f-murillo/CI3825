@@ -26,12 +26,9 @@ void *process_drone(void *arg){
         for(int j = 0; j < data->num_objects; j++){
             Object *obj = &data->objects[j]; // Objeto
             pthread_mutex_lock(&obj->mutex); // Entra en la seccion critica para el objeto
-            if(obj->destroyed){ // Si el objeto ya esta destruido totalmente, se ignora
-                pthread_mutex_unlock(&obj->mutex); // Sale de la seccion critica
-                continue;
-            }
-            // Si el objeto esta dentro de las coordenadas de la onda explosiva
-            if(obj->x >= x_min && obj->x <= x_max && obj->y >= y_min && obj->y <= y_max){
+            // Si el objeto no esta destuido, y esta dentro de las coordenadas de la onda explosiva
+            if(!obj->destroyed && obj->x >= x_min && obj->x <= x_max &&
+                obj->y >= y_min && obj->y <= y_max){
                 if(obj->resistance > 0) // Si el objeto es IC
                     obj->resistance -= drone.power; 
                 else // Si es OM
