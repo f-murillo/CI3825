@@ -11,7 +11,7 @@ Andrea Carrillo - 1710107
   - Los OM tienen resistencia < 0
   - Las TB tienen resistencia 0 
 - La idea del teatro es desplegar y detonar cierta cantidad de drones a lo largo de la cuadrícula
-- Estos drones tienen un poder explosivo y un rango de explosión
+- Estos drones tienen un poder explosivo y un rango de explosión, en el cual podría entrar un objeto
 - Una instancia de un teatro de operaciones es así:
   - Número de filas y columnas del teatro (N y M)
   - Número de objetos, y posteriormente los objetos (indicando sus coordenadas en la cuadrícula, y su resistencia)
@@ -33,7 +33,7 @@ Andrea Carrillo - 1710107
 ```
 
 ## Cuál es el objetivo del proyecto
-- El objetivo del proyecto es desarrollar un programa que, dada una instancia de un teatro de operaciones, determine qué objetos OM e IC son destruidos parcial o totalmente; también debe indicar si no fue afectado por ninguna explosión
+- El objetivo del proyecto es desarrollar un programa que, dada una instancia de un teatro de operaciones, determine qué objetos OM e IC entran en los rangos explosivos de los drones, y verificar cuáles son destruidos parcial o totalmente; también debe indicar si no fue afectado por ninguna explosión
 - Además, se quiere desarrollar de forma que sea más eficiente con respecto a usar un único proceso para resolverlo
 - Para esto, se usaron Hilos y Procesos
 - El proyecto fue realizado en C
