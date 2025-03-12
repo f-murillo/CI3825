@@ -20,6 +20,9 @@ scan-build make
 ./teopp <numero de procesos> <instancia>
 ```
 
+> [!NOTE]
+> El programa asume que el número de procesos ingresado es un entero
+
 ### Ejecución del programa con Valgrind para comprobar gestión de la memoria y posibles errores
 
 ```
