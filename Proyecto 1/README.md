@@ -7,6 +7,8 @@ Andrea Carrillo - 1710107
 
 - El simulador permite al usuario crear archivos o directorios, listar archivos de un directorio, eliminar archivos o directorios, etc.
 
+- El programa puede leer un archivo con archivos y directorios, y a partir de éstos, crear un sistema de archivos.
+
 - El proyecto fue realizado en C.
 
 ### Observaciones 
