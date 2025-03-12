@@ -1,7 +1,5 @@
 # Solución al problema del Teatro de Operaciones usando Procesos
 
-- La solución fue hecha en C
-
 ### Creación del ejecutable
 
 ```
