@@ -1,6 +1,7 @@
 # Simulador de manejador de archivos
 
-Franco Murillo - 1610782\n
+Franco Murillo - 1610782
+
 Andrea Carrillo - 1710107
 
 ## Observaciones 
