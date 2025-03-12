@@ -1,6 +1,9 @@
 # Simulador de manejador de archivos
 
-Observaciones 
+Franco Murillo - 1610782
+Andrea Carrillo - 1710107
+
+## Observaciones 
 
 - Se usaron apuntadores a la estructura nodo en lugar de usar la estructura directamente porque de esta manera se pueden crear los nodos de manera dinámica, lo cual es necesario para el sistema de archivos. Además, usar la estructura directamente implica que al pasar la estructura a una función, se crea una copia de toda la estructura, lo cual termina siendo ineficiente. Se encontraron comentarios al respecto en https://stackoverflow.com/questions/61600147/why-use-pointer-to-struct-and-not-use-the-struct-directly-c y en https://www.reddit.com/r/C_Programming/comments/8i6r79/is_there_a_reason_to_use_a_pointer_to_a_struct/?rdt=57648
 
@@ -23,7 +26,7 @@ Observaciones
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-Creación del ejecutable
+## Creación del ejecutable
 
 make 
 
