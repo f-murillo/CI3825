@@ -26,7 +26,7 @@ scan-build make
 valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes  ./teoph <numero de hilos> <instancia>
 ```
 
-### En caso de querer compilarlo y ejecutarlo en **Windows** (cmd o PowerShell)
+### En caso de querer compilarlo y ejecutarlo en Windows con gcc (cmd o PowerShell)
 
 ```
 gcc main.c teatro.c -o teoph
