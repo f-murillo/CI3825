@@ -70,12 +70,17 @@ valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes  ./simfs
 valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes  ./simfs nombre_del_archivo
 ```
 
-> [!NOTE]
-> Las instrucciones de compilación y ejecución son para sistemas basados en **UNIX** (Linux)  
-> Para compilar y ejecutar en **Windows**, se puede hacer mediante los siguientes comandos si se cuenta con gcc (en cmd o PowerShell):  
-> ``` gcc simfs.c filesystem.c node.c -o simfs```   
-> ``` simfs```   
-> ``` simfs nombre_del_archivo``` 
+### En caso de querer compilarlo y ejecutarlo en Windows con gcc (cmd o PowerShell)
+
+```
+gcc simfs.c filesystem.c node.c -o simfs
+```
+```
+simfs
+```
+```
+simfs nombre_del_archivo
+```
 
 ### Ejemplo de uso
 
