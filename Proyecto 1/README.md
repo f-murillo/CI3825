@@ -68,7 +68,7 @@ valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes  ./simfs
 valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes  ./simfs nombre_del_archivo
 ```
 
-> .[!NOTE].
+> [!NOTE]
 > Esto es una nota
 
 ### Ejemplo de uso
