@@ -34,7 +34,7 @@ Andrea Carrillo - 1710107
 
 ### Creación del ejecutable
 
-make 
+> make 
 
 ### Creación del ejecutable detectando errores en el código antes de su ejecución.
 
