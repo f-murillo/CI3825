@@ -19,7 +19,7 @@ scan-build make
 ```
 
 > [!NOTE]
-> El programa asume que el número de procesos hilos es un entero
+> El programa asume que el número de hilos es un entero
 
 ### Ejecución del programa con Valgrind para comprobar gestión de la memoria y posibles errores
 
