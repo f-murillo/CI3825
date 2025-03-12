@@ -4,7 +4,13 @@ Franco Murillo - 1610782
 
 Andrea Carrillo - 1710107
 
-## Observaciones 
+El proyecto consiste en la realización de un simulador de administrador de archivos de un sistema UNIX.
+
+El programa permite al usuario crear archivos o directorios, listar archivos de un directorio, eliminar archivos o directorios, etc.
+
+El proyecto fue realizado en C.
+
+### Observaciones 
 
 - Se usaron apuntadores a la estructura nodo en lugar de usar la estructura directamente porque de esta manera se pueden crear los nodos de manera dinámica, lo cual es necesario para el sistema de archivos. Además, usar la estructura directamente implica que al pasar la estructura a una función, se crea una copia de toda la estructura, lo cual termina siendo ineficiente. Se encontraron comentarios al respecto en https://stackoverflow.com/questions/61600147/why-use-pointer-to-struct-and-not-use-the-struct-directly-c y en https://www.reddit.com/r/C_Programming/comments/8i6r79/is_there_a_reason_to_use_a_pointer_to_a_struct/?rdt=57648
 
@@ -27,19 +33,19 @@ Andrea Carrillo - 1710107
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Creación del ejecutable
+### Creación del ejecutable
 
 make 
 
-Creación del ejecutable detectando errores en el código antes de su ejecución.
+### Creación del ejecutable detectando errores en el código antes de su ejecución.
 
 scan-build make
 
-Ejecución del programa
+### Ejecución del programa
 
 ./simfs
 
-Ejecución  del programa leyendo comandos desde un archivo, agrega el nombre del archivo como argumento
+### Ejecución  del programa leyendo comandos desde un archivo, agrega el nombre del archivo como argumento
 
 ./simfs nombre_del_archivo
 
@@ -51,7 +57,7 @@ Ejecución  del programa con Valgrind leyendo comandos desde un archivo
 
 valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes  ./simfs nombre_del_archivo
 
-Ejemplo de uso
+### Ejemplo de uso
 
 ```
 > touch archivo_p
