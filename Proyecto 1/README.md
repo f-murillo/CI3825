@@ -1,7 +1,6 @@
 # Simulador de manejador de archivos
 
-Franco Murillo - 1610782
-
+Franco Murillo - 1610782  
 Andrea Carrillo - 1710107
 
 - El proyecto consiste en la realización de un simulador de administrador de archivos de un sistema UNIX.
