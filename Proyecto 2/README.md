@@ -33,7 +33,7 @@ Andrea Carrillo - 1710107
 ```
 
 ## Cuál es el objetivo del proyecto
-- El objetivo del proyecto es desarrollar un programa que, dada una instancia de un teatro de operaciones, determine qué objetos OM e IC entran en los rangos explosivos de los drones, y verificar cuáles son destruidos parcial o totalmente; también debe indicar si no fue afectado por ninguna explosión
+- El objetivo del proyecto es desarrollar un programa que, dada una instancia de un teatro de operaciones, determine si los objetos OM e IC entran en los rangos explosivos de los drones, y verificar cuántos son destruidos parcial o totalmente; también debe indicar cuántos no fueron afectados por ninguna explosión
 - Además, se quiere desarrollar de forma que sea más eficiente con respecto a usar un único proceso para resolverlo
 - Para esto, se usaron Hilos y Procesos
 - El proyecto fue realizado en C
