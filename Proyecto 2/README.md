@@ -44,5 +44,5 @@ IC parcialmente destruidos: 2
 IC totalmente destruido: 0
 ```
 - Además, se quiere desarrollar de forma que sea más eficiente con respecto a usar un único proceso para resolverlo
-- Para esto, se usaron Hilos y Procesos
+- Para esto, se desarrollaron dos soluciones, una con **Hilos**, y otra con **Procesos**
 - El proyecto fue realizado en C
