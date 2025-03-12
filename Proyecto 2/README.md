@@ -7,9 +7,9 @@ Andrea Carrillo - 1710107
 - Se tiene una cuadrícula NxM, que representa el teatro de operaciones
 - Dentro de esta cuadrícula se encuentran objetos, los cuales pueden ser instituciones civiles (IC), objetos militares (OM), o tierra baldía (TB)
 - Cada objeto tiene una resistencia diferente:
-  - Las IC tienen resistencia positiva
-  - Los OB tienen resistencia negativa
-  - Las TB tienen resistencia cero 
+  - Las IC tienen resistencia > 0
+  - Los OB tienen resistencia < 0
+  - Las TB tienen resistencia 0 
 - La idea del teatro es desplegar y detonar cierta cantidad de drones a lo largo de la cuadrícula
 - Estos drones tienen un poder explosivo y un rango de explosión
 - Una instancia de un teatro de operaciones es así:
