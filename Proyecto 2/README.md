@@ -8,7 +8,7 @@ Andrea Carrillo - 1710107
 - Dentro de esta cuadrícula se encuentran objetos, los cuales pueden ser instituciones civiles (IC), objetos militares (OM), o tierra baldía (TB)
 - Cada objeto tiene una resistencia diferente:
   - Las IC tienen resistencia > 0
-  - Los OB tienen resistencia < 0
+  - Los OM tienen resistencia < 0
   - Las TB tienen resistencia 0 
 - La idea del teatro es desplegar y detonar cierta cantidad de drones a lo largo de la cuadrícula
 - Estos drones tienen un poder explosivo y un rango de explosión
@@ -31,4 +31,9 @@ Andrea Carrillo - 1710107
 6 6 4 8
 9 9 8 1
 ```
-- El objetivo del proyecto es desarrolar un programa que, dada una instancia de un teatro de operaciones, determine qué objetos OM e IC son destruidos parcial o totalmente; también debe indicar si no fue afectado por ninguna explosión
+
+## Cuál es el objetivo del proyecto
+- El objetivo del proyecto es desarrollar un programa que, dada una instancia de un teatro de operaciones, determine qué objetos OM e IC son destruidos parcial o totalmente; también debe indicar si no fue afectado por ninguna explosión
+- Además, se quiere desarrollar de forma que sea más eficiente con respecto a usar un único proceso para resolverlo
+- Para esto, se usaron Hilos y Procesos
+- El proyecto fue realizado en C
