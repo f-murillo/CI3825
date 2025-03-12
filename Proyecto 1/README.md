@@ -69,7 +69,7 @@ valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes  ./simfs no
 ```
 
 > [!NOTE]
-> Las instrucciones de compilación y ejecución son para sistemas basados en UNIX (Linux)
+> Las instrucciones de compilación y ejecución son para sistemas basados en UNIX (Linux)  
 > Para compilar y ejecutar en Windows, se puede hacer mediante los siguientes comandos (en cmd o PowerShell):
 
 
