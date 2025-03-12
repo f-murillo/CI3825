@@ -4,11 +4,11 @@ Franco Murillo - 1610782
 
 Andrea Carrillo - 1710107
 
-El proyecto consiste en la realización de un simulador de administrador de archivos de un sistema UNIX.
+- El proyecto consiste en la realización de un simulador de administrador de archivos de un sistema UNIX.
 
-El programa permite al usuario crear archivos o directorios, listar archivos de un directorio, eliminar archivos o directorios, etc.
+- El simulador permite al usuario crear archivos o directorios, listar archivos de un directorio, eliminar archivos o directorios, etc.
 
-El proyecto fue realizado en C.
+- El proyecto fue realizado en C.
 
 ### Observaciones 
 
