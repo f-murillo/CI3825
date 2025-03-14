@@ -1,3 +1,4 @@
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
@@ -148,3 +149,4 @@ void executeT(int n, const char *file){
     free(thread_data);
     pthread_attr_destroy(&threadattr); 
 }
+```
