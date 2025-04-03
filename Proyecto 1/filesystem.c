@@ -1,7 +1,7 @@
-#include "node.h"
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include "node.h"
 
 // Nodo raiz y nodo actual en el sistema de archivos
 nodeStruct *root = NULL;
