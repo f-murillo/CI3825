@@ -358,6 +358,7 @@ void help(){
     printf("ls [-l]                  - Lista los archivos y directorios del directorio actual y los directorios hijo, o de un directorio de un camino dado\n");
     printf("cd <nombre_directorio>   - Cambiar de directorio a los directorios hijos, al directorio padre, a la raiz, o a un directorio en un camino dado\n");
     printf("pwd                      - Imprime el camino absoluto hasta el directorio actual\n");
+    printf("wrts <nombre_archivo>    - Crea un archivo con el nombre dado, el cual contiene todos los elementos del sistema de archivos.");
     printf("help                     - Muestra la guia de ayuda\n");
     printf("exit                     - Sale del programa\n");
 }
