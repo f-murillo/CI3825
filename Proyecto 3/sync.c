@@ -88,7 +88,7 @@ void sync_dirs(const char *d1, const char *d2){
                         // Se copia de d1 hacia d2 
                         if (S_ISDIR(st1.st_mode)){
                             if (cp_dir_to_dir(path1, d2) == 0){
-                                /* Actualiza las estadísticas; se recorre el directorio copiado para acumular datos */
+                                // Actualiza las estadísticas; se recorre el directorio copiado para acumular datos 
                                 unsigned long count = 0, bytes = 0;
                                 sum_dir_files(path1, &count, &bytes);
                                 files_d1_to_d2 += count;
