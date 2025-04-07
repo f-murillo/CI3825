@@ -8,7 +8,7 @@ Andrea Carrillo - 1710107
 
 - El objetivo es __sincronizar dos directorios__, ya sea copiando archivos o subdirectorios desde un directorio a otro, o borrándolos.
 
-- Al final de la sincronización, ambos directorios deben tener los mismos elementos.
+- Al final de la sincronización, ambos directorios deben tener __los mismos elementos__.
 
 ----------------------------------------------------------------------------------------------------------------------------
 
