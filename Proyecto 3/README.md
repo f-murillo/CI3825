@@ -74,7 +74,7 @@ valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes  ./syncDir 
 
 ### Ejemplo de Uso
 
-- Sean los directorios "USB" y "Docs", que se encuentran en el mismo directorio que el ejecutable syncDir.
+- Sean los directorios "USB" y "Docs", que se encuentran en el mismo directorio que el ejecutable __syncDir__.
 
 - USB contiene los siguientes elementos:
 
