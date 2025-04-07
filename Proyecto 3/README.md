@@ -122,4 +122,4 @@ De d1 a d2: 2 archivos, 0 kilobytes transferidos.
 De d2 a d1: 2 archivos, 0 kilobytes transferidos.
 ```
 
-- OBSERVACION: en las estadísticas de transferencia, aparecen 0 kilobytes transferidos, porque todos los archivos están vacíos.
+- OBSERVACION: en las estadísticas de transferencia aparecen 0 kilobytes transferidos para ambos directorios, porque todos los archivos transferidos están vacíos.
