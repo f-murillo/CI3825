@@ -80,7 +80,7 @@ valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes  ./syncDir 
 
     - Un directorio "ci3825", con dos archivos "Ex1.txt" y "Lab1.txt" vacíos.
 
-    - Un directorio "ci2611", con un archivo "Proy1.pdf".
+    - Un directorio "ci2611", con un archivo "Proy1.pdf" vacío.
 
     - Un archivo "TODO" que dice "Versión nueva de TODO".
 
