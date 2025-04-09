@@ -11,8 +11,8 @@ void *process_drone(void *arg){
         Drone drone = data->drones[i]; // Se obtiene el dron
         /*
             Se calculan las coordenadas de la onda explosiva del dron, ajustandolas en 
-            caso de que la esquina sup. izquierda tenga coordenadas sean negativas, o 
-            si la esquina inf. derecha tiene coordenadas que igualan o superan al numero
+            caso de que la esquina sup. izquierda tenga coordenadas negativas, o si la
+            esquina inf. derecha tiene coordenadas que igualan o superan al numero
             de filas y columnas del teatro
         */
         // Esq. superior izquierda
