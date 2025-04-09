@@ -15,7 +15,7 @@ Andrea Carrillo - 1710107
 - Una instancia de un teatro de operaciones es así:
   - Número de filas y columnas del teatro (N y M)
   - Número de objetos, y posteriormente los objetos; se indica sus coordenadas en la cuadrícula, y su resistencia (solamente objetos de tipo IC u OM, los TB no son relevantes)
-  - Número de drones, y posteriormente los drones (indicando sus coordenadas en la cuadrícula, su rango de explosión y su poder explosivo)
+  - Número de drones, y posteriormente los drones, indicando sus coordenadas en la cuadrícula, su rango de explosión y su poder explosivo
 - Un ejemplo de instancia es como sigue (esta instancia es la que se encuentra como prueba en las carpetas con las soluciones):
 ```
 10 10
