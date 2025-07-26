@@ -88,7 +88,7 @@ void sync_dirs(const char *d1, const char *d2){
                         // Se copia de d1 hacia d2 
                         if (S_ISDIR(st1.st_mode)){
                             if (cp_dir_to_dir(path1, d2) == 0){
-                                // Actualiza las estadísticas; se recorre el directorio copiado para acumular datos 
+                                // Actualizamos las estadisticas, recorriendo el directorio copiado para acumular datos 
                                 unsigned long count = 0, bytes = 0;
                                 sum_dir_files(path1, &count, &bytes);
                                 files_d1_to_d2 += count;
@@ -123,7 +123,7 @@ void sync_dirs(const char *d1, const char *d2){
             }            
         }else{ // El elemento existe en ambos directorios
             if (S_ISREG(st1.st_mode) && S_ISREG(st2.st_mode)){
-                // Caso de archivos: Comprobar si son iguales 
+                // Caso de archivos: Comprobamos si son iguales 
                 // Si son iguales no hacemos nada
                 if (st1.st_size == st2.st_size && same_content_file(path1, path2)) 
                     continue; 
@@ -181,7 +181,7 @@ void sync_dirs(const char *d1, const char *d2){
                 }
             }
             else if (S_ISDIR(st1.st_mode) && S_ISDIR(st2.st_mode)){
-                //Si ambos son directorios, se sincronizan recursivamente 
+                // Si ambos son directorios, se sincronizan recursivamente 
                 sync_dirs(path1, path2);
             }
             else{
